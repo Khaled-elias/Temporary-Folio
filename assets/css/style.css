@@ -1,0 +1,317 @@
+/* color   #002a5a , #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+
+
+@font-face {
+    font-family: kido;
+    src: url(../font/Athene.otf) ;
+    
+  }
+
+nav  {
+    
+    width: 190em;
+    border-bottom: 1.8px solid #002a5a;
+    position: fixed;
+    z-index: 3;
+}
+nav h2{
+    color: #002a5a;
+    display: inline-block;
+    width: 38%;
+    margin-left: 10em;
+    font-size: 18px ;
+    padding-top: 8px;
+   font-family: kido;
+   margin-top: 0;
+}
+header{
+   
+    background:#efe8d7 ;
+    width: 100%;
+    height: 200vh;
+    
+}
+header h1:nth-of-type(1){
+  text-align: center;
+    padding-top:2em ;
+    font-size: 11em;
+    width: 8em;
+    color:#002a5a ;
+    border-bottom:2px solid #002a5a ;
+    margin-left: 1.2em;
+   margin-top: 0;
+   font-family: kido;
+    
+
+   
+}
+header h1:nth-of-type(2){
+  
+    font-size: 11em;
+    width: 8em;
+    color:#002a5a ;
+    border-bottom:2px solid #002a5a ;
+    text-align: center;
+    margin-left: 1.2em;
+    margin-top: 0;
+    font-family: kido;
+
+}
+
+
+header section img{
+   padding-left: 35%;
+   width: 30%;
+}
+
+
+
+ header h3 {
+    display: inline-block;
+    width: 5em;
+    font-family: kido;
+    font-size: 26px;
+}
+header h4{
+    display: inline-block;
+    width: 9em;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+header section:nth-of-type(2){
+    padding-left: 35%;
+}
+
+
+
+
+
+
+main section:nth-of-type(1) p:nth-of-type(1){
+    margin: 0;
+   padding-top: 6em;
+    padding-left: 10%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+main section:nth-of-type(1){
+    background:#F4C4C4 ;
+    height: 180vh;
+    color: #282b29;
+}
+main section:nth-of-type(1) p:nth-of-type(2){
+    width: 32em;
+    text-align: left;
+    padding-left: 60%;
+    padding-bottom: 8%;
+    font-family: 'Open Sans', sans-serif;
+}
+table td,th {
+    border-bottom: 1px solid black;
+}
+
+table h2{
+    width: 16em;
+    text-align: left;
+}
+article p {
+    width: 3em;
+}
+article h6{
+    width: 8em;
+}
+table{
+    position: relative;
+    left: 60%;
+    margin-bottom: 8%;
+
+}
+article h3{
+   text-align: right;
+    border-bottom: 1px solid black;
+    width: 18em;
+    margin-left: 60%;
+    width: 28em;
+}
+main section:nth-of-type(1) h1{
+    font-size: 10em;
+    font-family: kido;
+}
+article img{
+    width: 8em;
+    padding-left: 83%;
+}
+
+
+
+
+
+
+
+main section:nth-of-type(2){
+background:#DEB873 ;
+height: 440vh;
+color: #7d2222;
+}
+ main section:nth-of-type(2) p:nth-of-type(1){
+    padding-left: 88%;
+    padding-top: 8em;
+    margin-top: 0;
+
+}
+main section:nth-of-type(2) h1{
+    font-size: 10em;
+    padding-left: 75%;
+    font-family: kido;
+}
+main section:nth-of-type(2) p:nth-of-type(2){
+    width: 32em;
+   
+    text-align: left;
+    padding-left: 10%;
+    padding-bottom: 16%;
+}
+main section:nth-of-type(2) h2:nth-of-type(2){
+    font-size: 4em;
+    padding-left: 10%;
+    position: absolute;
+    z-index: 2;
+    font-family: kido;
+}
+main section:nth-of-type(2) h2:nth-of-type(1){
+    font-size: 4em;
+    padding-left: 10%;
+    font-family: kido;
+    
+}
+
+main section:nth-of-type(2) img:nth-of-type(1){
+    position: absolute;
+    top: 512%;
+    left: 34%;
+}
+main section:nth-of-type(2) img:nth-of-type(2){
+    position: absolute;
+    top: 600%;
+    left: 12%;
+}
+main section:nth-of-type(2) h2:nth-of-type(3){
+    font-size: 4em;
+    padding-left: 70%;
+    position: absolute;
+    z-index: 2;
+    top: 595%;
+    font-family: kido;
+}
+main section:nth-of-type(2) h2:nth-of-type(4){
+    font-size: 4em;
+    padding-left: 65%;
+    position: absolute;
+    top: 605%;
+    font-family: kido;
+}
+main section:nth-of-type(2) img:nth-of-type(3){
+    position: absolute;
+    top: 670%;
+    left: 34%;
+}
+main section:nth-of-type(2) h2:nth-of-type(5){
+    font-size: 4em;
+    padding-left: 10%;
+    position: absolute;
+    z-index: 2;
+    top: 665%;
+    font-family: kido;
+}
+main section:nth-of-type(2) h2:nth-of-type(6){
+    font-size: 4em;
+    padding-left: 10%;
+    position: absolute;
+    top: 675%;
+    font-family: kido;
+    
+}
+main section:nth-of-type(2) img:nth-of-type(4){
+    position: absolute;
+    top: 740%;
+    left: 12%;
+}
+main section:nth-of-type(2) h2:nth-of-type(7){
+    font-size: 4em;
+    padding-left: 65%;
+    position: absolute;
+    z-index: 2;
+    top: 735%;
+    font-family: kido;
+}
+main section:nth-of-type(2) h2:nth-of-type(8){
+    font-size: 4em;
+    padding-left: 62%;
+    position: absolute;
+    top: 745%;
+    font-family: kido;
+}
+
+
+
+
+
+
+
+main section:nth-of-type(3){
+    background: #D2D2D2;
+    color:#1d8883 ;
+    height: 130vh;
+
+}
+main section:nth-of-type(3) p:nth-of-type(1){
+    margin: 0;
+    padding-top: 6em;
+   
+    padding-left: 10%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+main section:nth-of-type(1) p:nth-of-type(2){
+    width: 32em;
+    text-align: left;
+    padding-left: 60%;
+    padding-bottom: 8%;
+    font-family: 'Open Sans', sans-serif;
+}
+main section:nth-of-type(3) h1{
+    font-size: 10em;
+    font-family: kido;
+}
+main section:nth-of-type(3) p:nth-of-type(2){
+    width: 18em;
+    text-align: left;
+    padding-left: 40%;
+    padding-bottom: 8%;
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    text-align: right;
+    padding-right: 5em;
+    
+}
+li{
+    
+    list-style: none;
+    height: 2em;
+}
+a{
+    text-decoration: none;
+    color:#1d8883  ;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+a:hover{
+   border-bottom: 1px solid #1d8883 ;
+ 
+}
